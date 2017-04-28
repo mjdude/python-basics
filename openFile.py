@@ -12,3 +12,6 @@ print(content)
 content = [i.rstrip("\n") for i in content]
 
 print(content)
+
+# stop reading file
+file.close()
